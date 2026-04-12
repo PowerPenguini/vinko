@@ -138,7 +138,7 @@ function Hero() {
       <div className="hero-shade" />
       <Header />
       <motion.div
-        className="relative z-20 flex min-h-[92svh] items-end px-5 pb-16 pt-28 sm:px-8 lg:pb-20"
+        className="relative z-20 flex min-h-[100svh] items-end px-5 pb-16 pt-28 sm:px-8 lg:pb-20"
         style={{ y: textY }}
       >
         <div className="mx-auto w-full max-w-7xl">

@@ -41,7 +41,7 @@ body {
 
 .hero {
   position: relative;
-  min-height: 92svh;
+  min-height: 100svh;
   overflow: hidden;
   background: #090807;
 }
