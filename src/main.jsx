@@ -149,7 +149,7 @@ function Hero() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="eyebrow">Winiarnia · Łódź</p>
-            <h1 className="h1--hero-title">Vaše zdraví</h1>
+            <h1 className="h1--hero-title">Vaše zdraví!</h1>
             <p className="hero-copy">
               Kameralna winiarnia w Łodzi z morawskim winem nalewanym prosto z beczki. Własna selekcja butelek, przekąski i miejsce, do którego się wraca.
             </p>
