@@ -26,13 +26,13 @@ export const snackMenuItems = [
 ];
 
 export const openingHours = [
-  { day: "Niedziela", hours: "12:00-20:00", schemaDay: "Sunday" },
   { day: "Poniedziałek", hours: "Zamknięte", schemaDay: "Monday" },
   { day: "Wtorek", hours: "Zamknięte", schemaDay: "Tuesday" },
   { day: "Środa", hours: "15:00-22:00", schemaDay: "Wednesday" },
   { day: "Czwartek", hours: "15:00-22:00", schemaDay: "Thursday" },
   { day: "Piątek", hours: "15:00-23:00", schemaDay: "Friday" },
   { day: "Sobota", hours: "14:00-23:00", schemaDay: "Saturday" },
+  { day: "Niedziela", hours: "12:00-20:00", schemaDay: "Sunday" },
 ];
 
 export const contact = {

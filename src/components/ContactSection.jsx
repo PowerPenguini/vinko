@@ -2,8 +2,10 @@ import { IconDog, IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
 import { contact, openingHours } from "../data";
 import { Wordmark } from "./Wordmark";
 
+const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 export function ContactSection() {
-  const todayIndex = new Date().getDay();
+  const todayName = dayNames[new Date().getDay()];
 
   return (
     <section id="kontakt" className="bg-ink text-bone" aria-labelledby="contact-title">
@@ -42,8 +44,8 @@ export function ContactSection() {
                 Godziny
               </h3>
               <ul aria-label="Godziny otwarcia">
-                {openingHours.map((item, index) => {
-                  const isToday = index === todayIndex;
+                {openingHours.map((item) => {
+                  const isToday = item.schemaDay === todayName;
                   return (
                     <li key={item.day} className={`grid grid-cols-[minmax(0,1fr)_auto] gap-4 border-b border-bone/10 py-2 leading-[1.4] ${isToday ? "text-wine" : "text-bone/75"}`}>
                       <span>{item.day}</span>
