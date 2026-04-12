@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { publicAsset } from "../assets";
 
 export function StorySection() {
   return (
@@ -11,7 +12,7 @@ export function StorySection() {
           viewport={{ once: true, margin: "-140px" }}
           transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
         >
-          <img src="/assets/przekaski.png" alt="Talerz serów, oliwek i wędlin do wina" className="h-full w-full object-cover object-[45%_center]" />
+          <img src={publicAsset("assets/przekaski.png")} alt="Talerz serów, oliwek i wędlin do wina" className="h-full w-full object-cover object-[45%_center]" />
         </motion.figure>
 
         <motion.div

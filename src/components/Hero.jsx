@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { IconChevronDown } from "@tabler/icons-react";
+import { publicAsset } from "../assets";
 import { Header } from "./Header";
 
 export function Hero() {
@@ -10,7 +11,7 @@ export function Hero() {
   return (
     <section id="top" className="relative min-h-[100svh] overflow-hidden bg-ink" aria-labelledby="hero-title">
       <motion.img
-        src="/assets/krany.jpg"
+        src={publicAsset("assets/krany.jpg")}
         alt="Drewniane nalewaki wina przy barze Vinko"
         className="absolute inset-0 h-full w-full origin-center object-cover object-[66%_center] max-[720px]:object-[58%_center]"
         style={{ scale: imageScale }}

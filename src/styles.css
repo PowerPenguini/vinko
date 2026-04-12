@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+  src: url("./assets/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
   font-display: swap;
   font-weight: 100 900;
 }
