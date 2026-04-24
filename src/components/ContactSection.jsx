@@ -50,9 +50,9 @@ export function ContactSection() {
                 {openingHours.map((item) => {
                   const isToday = item.schemaDay === todayName;
                   return (
-                    <li key={item.day} className={`grid grid-cols-[minmax(0,1fr)_auto] gap-4 border-b border-ink/10 py-2 leading-[1.4] ${isToday ? "text-wine" : "text-ink/70"}`}>
+                    <li key={item.day} className={`grid grid-cols-[minmax(0,1fr)_auto] gap-4 border-b border-ink/10 py-2 leading-[1.4] ${isToday ? "text-olive" : "text-ink/70"}`}>
                       <span>{item.day}</span>
-                      <strong className={`font-semibold ${isToday ? "font-black text-wine" : "text-ink"}`}>{item.hours}</strong>
+                      <strong className={`font-semibold ${isToday ? "font-black text-olive" : "text-ink"}`}>{item.hours}</strong>
                     </li>
                   );
                 })}
