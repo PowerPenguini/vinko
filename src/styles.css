@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  color: #f5eee3;
-  background: #090807;
+  color: #241815;
+  background: #fffaf0;
   font-family: Inter, "Segoe UI", Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +25,7 @@ body {
 
 ::selection {
   background: #8f1d2c;
-  color: #f5eee3;
+  color: #fffaf0;
 }
 
 @layer components {
@@ -36,20 +36,20 @@ body {
   }
 
   .button-primary {
-    @apply bg-wine text-bone hover:bg-[#7d1725];
+    @apply bg-wine text-bone shadow-[0_12px_28px_rgba(143,29,44,0.22)] hover:bg-[#7d1725];
   }
 
   .button-secondary {
-    @apply border border-bone/50 text-bone hover:border-bone/70;
+    @apply border border-ink/30 bg-bone/70 text-ink hover:border-wine hover:text-wine;
   }
 
   .button-ghost {
-    @apply border border-bone/40 bg-transparent text-bone hover:border-bone/70 hover:bg-bone/5;
+    @apply border border-ink/20 bg-transparent text-ink hover:border-wine hover:bg-wine/5 hover:text-wine;
   }
 
   .eyebrow {
     @apply mb-5 flex items-center gap-3 font-display text-sm font-bold uppercase tracking-[0.18em];
-    color: #c94857;
+    color: #8f1d2c;
   }
 }
 
@@ -69,8 +69,8 @@ body {
   inset: 0;
   z-index: 10;
   background:
-    linear-gradient(90deg, rgba(9, 8, 7, 0.96) 0%, rgba(9, 8, 7, 0.76) 38%, rgba(9, 8, 7, 0.28) 76%),
-    linear-gradient(0deg, rgba(9, 8, 7, 0.82) 0%, rgba(9, 8, 7, 0.18) 52%, rgba(9, 8, 7, 0.56) 100%);
+    linear-gradient(90deg, rgba(255, 250, 240, 0.94) 0%, rgba(255, 250, 240, 0.78) 34%, rgba(255, 250, 240, 0.14) 72%),
+    linear-gradient(0deg, rgba(255, 250, 240, 0.82) 0%, rgba(255, 250, 240, 0.04) 48%, rgba(255, 250, 240, 0.46) 100%);
 }
 
 .scroll-hint {
@@ -100,10 +100,10 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 0.34rem;
-  border: 1px solid rgba(245, 238, 227, 0.42);
+  border: 1px solid rgba(36, 24, 21, 0.22);
   border-radius: 8px;
-  background: rgba(9, 8, 7, 0.34);
-  color: #f5eee3;
+  background: rgba(255, 250, 240, 0.8);
+  color: #241815;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -135,7 +135,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(9, 8, 7, 0.92);
+  background: rgba(255, 250, 240, 0.96);
   opacity: 0;
   transition: opacity 220ms ease;
 }
@@ -184,7 +184,7 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.04;
+  opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 200px 200px;
@@ -193,7 +193,7 @@ body {
 @media (max-width: 720px) {
   .hero-shade {
     background:
-      linear-gradient(90deg, rgba(9, 8, 7, 0.94) 0%, rgba(9, 8, 7, 0.72) 68%, rgba(9, 8, 7, 0.34) 100%),
-      linear-gradient(0deg, rgba(9, 8, 7, 0.86) 0%, rgba(9, 8, 7, 0.26) 56%, rgba(9, 8, 7, 0.58) 100%);
+      linear-gradient(90deg, rgba(255, 250, 240, 0.96) 0%, rgba(255, 250, 240, 0.74) 66%, rgba(255, 250, 240, 0.2) 100%),
+      linear-gradient(0deg, rgba(255, 250, 240, 0.9) 0%, rgba(255, 250, 240, 0.08) 56%, rgba(255, 250, 240, 0.6) 100%);
   }
 }
