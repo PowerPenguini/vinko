@@ -30,7 +30,7 @@ export function Hero() {
             <h1 id="hero-title" className="max-w-full font-display text-[clamp(4.8rem,12vw,11rem)] font-black uppercase leading-[0.78] text-ink max-[720px]:text-[clamp(4.2rem,22vw,7rem)]">
               Vinko
             </h1>
-            <p className="mt-5 font-display text-[clamp(2.1rem,5vw,4.2rem)] font-black leading-[0.88] text-wine">
+            <p className="mt-5 font-display text-[clamp(2.1rem,5vw,4.2rem)] font-black leading-[0.88] text-olive">
               Vaše zdraví!
             </p>
             <p className="mt-6 max-w-[33rem] text-[clamp(1.05rem,2vw,1.28rem)] leading-[1.55] text-ink/80 max-[720px]:max-w-[22rem] max-[720px]:text-[1.02rem]">
