@@ -1,19 +1,19 @@
-import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { SnackMenu } from "./components/SnackMenu";
-import { StorySection } from "./components/StorySection";
-import { WineMenu } from "./components/WineMenu";
+import { MenuBoard } from "./components/MenuBoard";
+import { PhotoJournal } from "./components/PhotoJournal";
+import { VisitFinale } from "./components/VisitFinale";
+import { VisitStrip } from "./components/VisitStrip";
 
 export function App() {
   return (
     <>
       <main>
         <Hero />
-        <WineMenu />
-        <SnackMenu />
-        <StorySection />
-        <ContactSection />
+        <VisitStrip />
+        <PhotoJournal />
+        <MenuBoard />
+        <VisitFinale />
       </main>
       <Footer />
     </>
