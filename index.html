@@ -3,40 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#1f1a17" />
-    <link
-      rel="preload"
-      href="%BASE_URL%assets/fonts/source-sans-3-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <meta name="theme-color" content="#171114" />
+    <link rel="icon" href="/assets/vinko-logo.svg" type="image/svg+xml" />
+    <link rel="preload" href="/assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/fraunces-latin-ext.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/dm-sans-latin-ext.woff2" as="font" type="font/woff2" crossorigin />
+
+    <title>Vinko z beczki | Morawskie wino z kranu w Łodzi</title>
     <meta
       name="description"
-      content="Wpadnij do Vinko przy Pienistej 50 w Łodzi na morawskie wino z kranu i proste przekąski. Sprawdź menu, ceny i godziny otwarcia."
+      content="Morawskie wino prosto z kranu na Retkini. Dziesięć kranów, jedna cena, deski serów i utopenci. Pienista 50, Łódź. Wpadnij po pracy."
     />
     <meta property="og:type" content="business.business" />
-    <meta property="og:title" content="Vinko | Morawskie wino z kranu w Łodzi" />
+    <meta property="og:title" content="Vinko z beczki | Morawskie wino z kranu w Łodzi" />
     <meta
       property="og:description"
-      content="Wpadnij do Vinko przy Pienistej 50 w Łodzi na morawskie wino z kranu i proste przekąski. Sprawdź menu, ceny i godziny otwarcia."
+      content="Morawskie wino prosto z kranu na Retkini. Dziesięć kranów, jedna cena, deski serów i utopenci. Pienista 50, Łódź."
     />
-    <meta property="og:image" content="/vinko/assets/editorial/og-vinko.jpg" />
+    <meta property="og:image" content="https://powerpenguini.github.io/vinko/assets/photos/og.jpg" />
     <meta property="og:locale" content="pl_PL" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Vinko | Morawskie wino z kranu w Łodzi" />
-    <meta
-      name="twitter:description"
-      content="Wpadnij do Vinko przy Pienistej 50 w Łodzi na morawskie wino z kranu i proste przekąski. Sprawdź menu, ceny i godziny otwarcia."
-    />
-    <meta name="twitter:image" content="/vinko/assets/editorial/og-vinko.jpg" />
+    <meta name="twitter:title" content="Vinko z beczki | Morawskie wino z kranu w Łodzi" />
+    <meta name="twitter:image" content="https://powerpenguini.github.io/vinko/assets/photos/og.jpg" />
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "BarOrPub",
-        "name": "Vinko",
-        "description": "Winiarnia przy Pienistej 50 w Łodzi z morawskim winem z kranu i przekąskami.",
-        "image": "/vinko/assets/editorial/og-vinko.jpg",
+        "name": "Vinko z beczki",
+        "description": "Winiarnia w Łodzi z morawskim winem z kranu i przekąskami.",
+        "image": "/vinko/assets/photos/og.jpg",
         "telephone": "+48 884 160 015",
         "email": "vinkolodz@gmail.com",
         "servesCuisine": ["Wino", "Przekąski"],
@@ -49,34 +46,13 @@
           "addressCountry": "PL"
         },
         "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Sunday",
-            "opens": "12:00",
-            "closes": "20:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Wednesday", "Thursday"],
-            "opens": "15:00",
-            "closes": "22:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Friday",
-            "opens": "15:00",
-            "closes": "23:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "14:00",
-            "closes": "23:00"
-          }
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday"], "opens": "15:00", "closes": "22:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "15:00", "closes": "23:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "14:00", "closes": "23:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "20:00" }
         ]
       }
     </script>
-    <title>Vinko Łódź | Morawskie wino z kranu</title>
   </head>
   <body>
     <div id="root"></div>
