@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Vinko z beczki | Morawskie wino z kranu w Łodzi",
+    "description": "Morawskie wino prosto z kranu na Retkini. Dziesięć kranów, jedna cena, deski serów i utopenci. Pienista 50, Łódź. Wpadnij po pracy."
+  },
+  "nav": {
+    "taps": "Krany",
+    "snacks": "Przekąski",
+    "story": "Historia",
+    "visit": "Przyjdź"
+  },
+  "hero": {
+    "eyebrow": "Winiarnia z kranu na Retkini",
+    "headlineLines": [
+      "Wino z Moraw.",
+      "Prosto z kranu."
+    ],
+    "sub": "Dziesięć kranów, mali winiarze z południowych Moraw i jedna cena za każde wino. Najpierw spróbuj, potem wybierz.",
+    "ctaPrimary": "Co dziś na kranach",
+    "ctaSecondary": "Jak do nas trafić",
+    "openNow": "Otwarte do {close}",
+    "openLater": "Dziś od {open}",
+    "closedToday": "Dziś nieczynne, wracamy {day} o {open}"
+  },
+  "ritual": {
+    "eyebrow": "Jak to działa",
+    "title": "Trzy kroki do kieliszka",
+    "steps": [
+      {
+        "title": "Wybierz kran",
+        "text": "Nie wiesz, co wziąć? Zapytaj przy barze. Dostaniesz łyk na próbę, zanim zdecydujesz."
+      },
+      {
+        "title": "Wybierz miarę",
+        "text": "Od małego kieliszka na spróbowanie po litrowy dzbanek dla całego stołu."
+      },
+      {
+        "title": "Siadaj albo bierz",
+        "text": "Usiądź przy barze, na ławce przed wejściem albo zabierz wino na wynos."
+      }
+    ],
+    "pricingTitle": "Ile to kosztuje",
+    "pricingNote": "Każde wino z kranu kosztuje tyle samo, a łyk na próbę dostajesz, zanim wybierzesz."
+  },
+  "taps": {
+    "eyebrow": "Na kranach",
+    "title": "Co dziś leci",
+    "intro": "Na ścianie wisi dziesięć kranów, a wina zmieniają się z każdą beczką. Kończy się jedno, przyjeżdża następne.",
+    "wines": [
+      {
+        "name": "Ryzlink vlašský",
+        "note": "Cytrusy, mineralność, wytrawny i rześki."
+      },
+      {
+        "name": "Müller-Thurgau",
+        "note": "Lekki, kwiatowy, pije się sam."
+      },
+      {
+        "name": "Rulandské šedé",
+        "note": "Gruszka, nuta miodu, pełniejsze ciało."
+      },
+      {
+        "name": "Frankovka",
+        "note": "Wiśnia, szczypta pieprzu, delikatne taniny."
+      },
+      {
+        "name": "Zweigelt",
+        "note": "Śliwka, wiśnia i miękki finisz."
+      },
+      {
+        "name": "Rosé",
+        "note": "Truskawka, świeżość, lekko jak lato."
+      }
+    ],
+    "footnote": "Na ścianie może dziś wisieć coś innego, więc po prostu zapytaj przy barze."
+  },
+  "snacks": {
+    "eyebrow": "Do kieliszka",
+    "title": "Coś do przegryzienia",
+    "intro": "Wszystko ląduje na zielonych, ceramicznych deskach, z oliwkami, marynowaną papryką, korniszonami i chrupiącymi grzankami.",
+    "items": [
+      {
+        "name": "Deska wędlin",
+        "text": "Wędliny, oliwki, korniszony, coś do chrupania.",
+        "price": "40 zł"
+      },
+      {
+        "name": "Deska serów",
+        "text": "Sery z dodatkami, do bieli i czerwieni.",
+        "price": "40 zł"
+      },
+      {
+        "name": "Utopenci",
+        "text": "Marynowana kiełbaska, czeska klasyka do wina.",
+        "price": "25 zł"
+      },
+      {
+        "name": "Sernik wytrawny",
+        "text": "Sernik, ale na słono. Zaufaj nam.",
+        "price": "15 zł"
+      },
+      {
+        "name": "Tarta wytrawna",
+        "text": "Krucha, wytrawna, stworzona do białego.",
+        "price": "15 zł"
+      },
+      {
+        "name": "Ciasto",
+        "text": "Coś słodkiego na koniec wieczoru.",
+        "price": "18 zł"
+      },
+      {
+        "name": "Bagietka",
+        "text": "Chrupiąca, sycąca, do podzielenia przy stole.",
+        "price": "30 zł"
+      },
+      {
+        "name": "Szparagi",
+        "text": "Tylko w sezonie. Łap, póki są.",
+        "price": "20 zł"
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Skąd to wino",
+    "title": "Morawy, tylko bliżej",
+    "paragraphs": [
+      "Południowe Morawy to łagodne wzgórza, winnice po horyzont i piwniczki, które Czesi nazywają vinné sklepy. Wino robią tam małe, rodzinne winiarnie, żeby je pić, a nie trzymać na półce.",
+      "Do Łodzi wino przyjeżdża w stalowych beczkach, prosto od winiarzy. Nie płacisz za butelkę, korek i etykietę, tylko za to, co w kieliszku. Beczka trzyma wino szczelnie, więc ostatni kieliszek smakuje jak pierwszy. Zbiorniki widzisz za szkłem nad barem, podświetlone na fioletowo.",
+      "W środku sklejka, beton, dębowa lada, lampy z butelek i brzozowa kłoda nad barem. Za ladą brodaty gospodarz w fartuchu Vinko, który zagada każdego, kto przekroczy próg. Sąsiedzi z Retkini wpadają tu po pracy, znajomi w piątek, a rodziny z dziećmi w niedzielne popołudnie."
+    ],
+    "pullQuote": "Płacisz za wino, nie za butelkę.",
+    "facts": [
+      {
+        "label": "Kranów",
+        "value": "10"
+      },
+      {
+        "label": "Cena za 10 cl",
+        "value": "10 zł"
+      },
+      {
+        "label": "Skąd",
+        "value": "Morawy Południowe"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Zajrzyj do środka",
+    "title": "Tak tu jest",
+    "captions": {
+      "taps": "Dziesięć kranów, dziesięć tabliczek",
+      "pour": "Nalewane prosto z kranu",
+      "bar": "Dębowa lada, lampy z butelek",
+      "friends": "Piątek, znajomi, dzbanek na stół",
+      "patio": "Ławki przed wejściem, latem pełne",
+      "host": "Gospodarz, który zagada każdego",
+      "storefront": "Winogrona i słoneczniki na szybie",
+      "food": "Deska na zielonej ceramice"
+    }
+  },
+  "visit": {
+    "eyebrow": "Przyjdź",
+    "title": "Wpadnij na Pienistą",
+    "intro": "Szukaj szklanej witryny z winogronami i słonecznikami w nowym bloku na Retkini. Latem siadaj na ławkach przed wejściem, a psa śmiało bierz ze sobą.",
+    "hoursTitle": "Godziny otwarcia",
+    "closedLabel": "Nieczynne",
+    "todayLabel": "dziś",
+    "addressTitle": "Adres",
+    "contactTitle": "Kontakt",
+    "mapCta": "Pokaż na mapie",
+    "callCta": "Zadzwoń",
+    "mailCta": "Napisz maila"
+  },
+  "footer": {
+    "tagline": "Morawskie wino z kranu, na Retkini.",
+    "legal": "Alkohol sprzedajemy wyłącznie osobom pełnoletnim.",
+    "credit": "Vinko z beczki, Łódź",
+    "archive": "Poprzednia wersja strony"
+  }
+}

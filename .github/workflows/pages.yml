@@ -15,12 +15,19 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  # Historical version of the site, published read-only under /vinko/archiwum/
+  LEGACY_REF: v1-stara-strona
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -31,8 +38,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build current site
         run: npm run build
+
+      - name: Build historical site into /archiwum/
+        run: |
+          git worktree add ../legacy "$LEGACY_REF"
+          cd ../legacy
+          npm ci
+          npx vite build --base /vinko/archiwum/ --outDir "$GITHUB_WORKSPACE/dist/archiwum" --emptyOutDir
+          cd "$GITHUB_WORKSPACE/dist/archiwum"
+          # Point social previews at the archive copy and keep search engines on the current site.
+          sed -i 's#/vinko/assets/#/vinko/archiwum/assets/#g' index.html
+          sed -i 's#<head>#<head>\n    <meta name="robots" content="noindex" />#' index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
